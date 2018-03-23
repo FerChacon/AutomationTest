@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test verbose="0" name="Run Bebo Test(failed)">
+    <classes>
+      <class name="com.bebo.test.DriverTest">
+        <methods>
+          <include name="openReport"/>
+          <include name="setUpTest"/>
+          <include name="faledTestScreenShot" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.bebo.test.DriverTest -->
+    </classes>
+  </test> <!-- Run Bebo Test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
