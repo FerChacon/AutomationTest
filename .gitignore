@@ -23,7 +23,11 @@
 */.idea/*
 
 #Idea Files
+<<<<<<< HEAD
 *.iml
+=======
+AutomationBox.iml
+>>>>>>> deb0f0c949b45c5ba1a11dcc54ef7dfb76972a30
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
